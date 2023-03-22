@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.TestADS" time="0.001" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="example.project.TestADS" time="0.909" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\georg\AppData\Local\Temp\surefire8884130796517165636\surefirebooter2074817048186046572.jar C:\Users\georg\AppData\Local\Temp\surefire8884130796517165636 2023-03-22T12-01-48_995-jvmRun1 surefire4007074402680830759tmp surefire_010229049906193900075tmp"/>
+    <property name="sun.java.command" value="C:\Users\georg\AppData\Local\Temp\surefire4900705337151331509\surefirebooter127590806657619912.jar C:\Users\georg\AppData\Local\Temp\surefire4900705337151331509 2023-03-22T12-10-14_899-jvmRun1 surefire12958224847447430663tmp surefire_011730973759718068198tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="TestADS#testPredict"/>
     <property name="surefire.test.class.path" value="C:\Users\georg\reeng\testing-for-reengineering-georgehumberstone\target\test-classes;C:\Users\georg\reeng\testing-for-reengineering-georgehumberstone\target\classes;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\georg\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\georg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\georg\.m2\repository\org\mockito\mockito-core\5.2.0\mockito-core-5.2.0.jar;C:\Users\georg\.m2\repository\net\bytebuddy\byte-buddy\1.14.1\byte-buddy-1.14.1.jar;C:\Users\georg\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.1\byte-buddy-agent-1.14.1.jar;C:\Users\georg\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\georg\.m2\repository\org\mockito\mockito-junit-jupiter\5.2.0\mockito-junit-jupiter-5.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\georg"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\georg\AppData\Local\Temp\surefire8884130796517165636\surefirebooter2074817048186046572.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\georg\AppData\Local\Temp\surefire4900705337151331509\surefirebooter127590806657619912.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -55,12 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testPrintPath" classname="example.project.TestADS" time="0"/>
-  <testcase name="testPredict" classname="example.project.TestADS" time="0.001">
-    <failure message="expected: &lt;[0, 0]&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <[0, 0]> but was: <null>
-	at example.project.TestADS.testPredict(TestADS.java:42)
-]]></failure>
-    <system-out><![CDATA[WARNING: ADS.predict() is not yet implemented.
-]]></system-out>
-  </testcase>
+  <testcase name="testPredict" classname="example.project.TestADS" time="0.902"/>
 </testsuite>
