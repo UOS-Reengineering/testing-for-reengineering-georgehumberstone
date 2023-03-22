@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: example.project.TestADS
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in example.project.TestADS
+testPredict  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[0, 0]> but was: <null>
+	at example.project.TestADS.testPredict(TestADS.java:42)
+
